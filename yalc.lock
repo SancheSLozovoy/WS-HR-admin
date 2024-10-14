@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "WS-HR": {
+      "signature": "573ba39592f0b1fe12c5d80f2cc0bca4",
+      "file": true
+    },
+    "ws-hr": {
+      "signature": "fbd476293ff8fd40efbe098a36ca1347",
+      "file": true
+    }
+  }
+}
