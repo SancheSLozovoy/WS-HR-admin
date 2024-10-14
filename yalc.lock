@@ -2,12 +2,13 @@
   "version": "v1",
   "packages": {
     "WS-HR": {
-      "signature": "573ba39592f0b1fe12c5d80f2cc0bca4",
+      "signature": "c98085802d276789904376d29c274c9d",
       "file": true
     },
     "ws-hr": {
-      "signature": "fbd476293ff8fd40efbe098a36ca1347",
-      "file": true
+      "signature": "0827c8d04cd094274177fb241f2d6313",
+      "link": true,
+      "replaced": "file:.yalc/ws-hr"
     }
   }
 }
