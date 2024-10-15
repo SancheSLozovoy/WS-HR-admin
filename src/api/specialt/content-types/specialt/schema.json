@@ -15,8 +15,7 @@
     "name": {
       "type": "string",
       "required": true,
-      "unique": true,
-      "regex": "const regex = /^(?![\\s-]+$).+/;"
+      "unique": true
     },
     "isActive": {
       "type": "boolean",

@@ -14,8 +14,7 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "regex": "/^(?![\\s-]+$).+/"
+      "required": true
     },
     "content": {
       "type": "blocks",
