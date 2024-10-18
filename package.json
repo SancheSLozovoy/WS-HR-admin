@@ -20,7 +20,7 @@
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0",
-    "ws-hr": "link:.yalc/ws-hr"
+    "ws-hr": "file:.yalc/ws-hr"
   },
   "devDependencies": {
     "@types/node": "^20",
