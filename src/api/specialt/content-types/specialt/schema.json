@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specialties",
+  "info": {
+    "singularName": "specialt",
+    "pluralName": "specialties",
+    "displayName": "Specialties ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "task": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::task.task",
+      "mappedBy": "specialty"
+    }
+  }
+}

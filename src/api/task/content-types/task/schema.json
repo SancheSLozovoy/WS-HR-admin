@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "singularName": "task",
+    "pluralName": "tasks",
+    "displayName": "Tasks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "blocks",
+      "required": true
+    },
+    "specialty": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::specialt.specialt",
+      "inversedBy": "task"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "task": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::task-link.task-link",
+      "mappedBy": "task"
+    }
+  }
+}
